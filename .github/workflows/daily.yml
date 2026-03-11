@@ -1,11 +1,7 @@
-      - name: Commit and Push
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          
-          # 【關鍵修正】務必同時包含這兩個檔案
-          git add Daily_Study.md index.html
-          
-          # 加上 || echo 避免在內容沒變動時報錯導致流程顯示紅色
-          git commit -m "Update Daily Study Material and Webpage for FLPT 240+" || echo "No changes to commit"
-          git push
+name: Daily C5ISR English Study
+on:
+  schedule:
+    - cron: '0 0 * * *' 
+  workflow_dispatch:
+  push:      # 新增這兩行：只要你有改檔案並上傳
+    branches: [ main ] # 就會自動觸發真正的教材更新
