@@ -3,34 +3,65 @@ import google.generativeai as genai
 import os
 
 def main():
+    # 1. 設定 API Key
     api_key = os.environ.get("GEMINI_API_KEY")
     genai.configure(api_key=api_key)
     
-    # 自動尋找可用模型
+    # 2. 自動尋找可用模型 (優先使用 Gemini 1.5 系列)
     try:
         models = [m.name for m in genai.list_models() if 'generateContent' in m.supported_generation_methods]
-        target_model = models[0] if models else 'models/gemini-1.5-flash'
+        target_model = models[0] if models else 'gemini-1.5-flash'
     except:
         target_model = 'gemini-1.5-flash'
 
     model = genai.GenerativeModel(target_model)
     
-    # 抓取新聞
-    news_feed = feedparser.parse("https://www.cisa.gov/cybersecurity-alerts.xml")
-    news_text = "\n".join([f"{e.title}: {e.summary}" for e in news_feed.entries[:3]])
+    # 3. 針對 FLPT 240+ 挑選的高階新聞來源 (經濟、國際關係、深度科學、地緣政治)
+    feeds = [
+        "https://www.economist.com/international/rss.xml",    # 經濟學人 (學術詞彙巔峰)
+        "https://foreignpolicy.com/feed/",                   # 外交政策 (戰略與國際論述)
+        "https://api.quantamagazine.org/feed/",              # Quanta Magazine (嚴謹邏輯與科普)
+        "https://www.nature.com/nature.rss"                  # Nature (學術嚴謹度)
+    ]
     
-    prompt = f"Role: C1 English Tutor. Use this news: {news_text}. Task: Rewrite in C1 level English, provide 5 academic vocabs, 1 grammar point, and 2 quiz questions. Use Traditional Chinese for explanations. Format: Markdown."
+    news_text = ""
+    for url in feeds:
+        try:
+            f = feedparser.parse(url)
+            # 每個來源抓取前 2 則最新具深度的標題與摘要
+            for entry in f.entries[:2]:
+                news_text += f"Headline: {entry.title}\nContext: {entry.summary}\n\n"
+        except: 
+            continue
+
+    # 備用機制：若 RSS 暫時抓不到，提供高階學術討論主題
+    if len(news_text) < 100:
+        news_text = "The intersection of global economic resilience, AI governance, and geopolitical stability in the post-pandemic era."
+
+    # 4. 針對 FLPT 衝刺設計的 AI 指令 (Prompt)
+    prompt = f"""
+    Role: Expert FLPT (Foreign Language Proficiency Test) Tutor for C1+ Level.
+    Target: Help the user improve from FLPT 232 to 240+ score.
+    Input News: {news_text}
+    
+    Please generate a study guide in Traditional Chinese with the following sections:
+    
+    1. **C1+ Academic Essay**: Rewrite the news into a 400-word cohesive academic essay. Use complex structures (e.g., nominalization, inversion, varied clausal structures).
+    2. **Power Vocabulary (8 items)**: Identify 8 high-level academic words or idioms (e.g., 'paradigm shift', 'equivocal', 'exacerbate'). Provide English definitions, Chinese meanings, and professional example sentences.
+    3. **Logical Discourse Analysis**: Explain how the article uses transition markers (e.g., 'notwithstanding', 'inasmuch as', 'conversely') to develop arguments.
+    4. **FLPT-Style Reading Comprehension**: Provide 2 multiple-choice questions focusing on 'inference' and 'author's perspective', with detailed explanations for the correct answers.
+    5. **C1 Level Oral Prompt**: Provide one discussion question for the user to practice speaking, simulating the FLPT Oral section.
+    """
     
     try:
         response = model.generate_content(prompt)
         content = response.text
         
-        # 1. 存成 Markdown (備份與記錄用)
+        # 5. 儲存為 Markdown 檔案 (備份)
         with open("Daily_Study.md", "w", encoding="utf-8") as f:
             f.write(content)
             
-        # 2. 存成 index.html (專屬網頁版)
-        # 先處理內容的換行與標題
+        # 6. 產出精美的 index.html (手機桌面閱讀版)
         display_content = content.replace('# ', '<h1>').replace('## ', '<h2>').replace('\n', '<br>')
         
         html_template = """
@@ -39,15 +70,24 @@ def main():
         <head>
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>每日 C1 英文學習</title>
+            <title>FLPT 240+ 每日衝刺</title>
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.2.0/github-markdown.min.css">
             <style>
-                body { box-sizing: border-box; min-width: 200px; max-width: 980px; margin: 0 auto; padding: 45px; }
-                @media (max-width: 767px) { body { padding: 15px; } }
+                body {{ box-sizing: border-box; min-width: 200px; max-width: 900px; margin: 0 auto; padding: 20px; background-color: #f0f2f5; font-family: -apple-system, sans-serif; }}
+                .markdown-body {{ padding: 40px; background: white; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); }}
+                h1 {{ color: #1a73e8; border-bottom: 2px solid #1a73e8; padding-bottom: 10px; }}
+                @media (max-width: 767px) {{ .markdown-body {{ padding: 20px; }} }}
             </style>
         </head>
         <body class="markdown-body">
+            <div style="text-align:center; margin-bottom: 20px;">
+                <span style="background:#1a73e8; color:white; padding:5px 15px; border-radius:20px; font-size:0.8em;">C1 ADVANCED MODE</span>
+            </div>
             {article}
+            <hr>
+            <footer style="text-align:center; color:#666; font-size:0.9em;">
+                Generated by Gemini AI for startchao | Aim for FLPT 240+
+            </footer>
         </body>
         </html>
         """
@@ -55,7 +95,7 @@ def main():
         with open("index.html", "w", encoding="utf-8") as f:
             f.write(html_template.format(article=display_content))
             
-        print("Successfully generated index.html")
+        print("Success: FLPT C1 Study Guide updated.")
     except Exception as e:
         print(f"Error: {e}")
 
