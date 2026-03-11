@@ -1,31 +1,11 @@
-name: Daily C5ISR English Study
-on:
-  schedule:
-    - cron: '0 0 * * *' 
-  workflow_dispatch:
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    permissions: # 這裡直接在腳本內要求寫入權限
-      contents: write
-    steps:
-      - uses: actions/checkout@v4 # 更新到 v4
-      - name: Set up Python
-        uses: actions/setup-python@v5 # 更新到 v5
-        with:
-          python-version: '3.10'
-      - name: Install dependencies
-        run: |
-          pip install feedparser google-generativeai
-      - name: Run Script
-        env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-        run: python main.py
       - name: Commit and Push
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # 【關鍵修正】務必同時包含這兩個檔案
           git add Daily_Study.md index.html
-          git commit -m "Update Daily Study Material" || echo "No changes"
+          
+          # 加上 || echo 避免在內容沒變動時報錯導致流程顯示紅色
+          git commit -m "Update Daily Study Material and Webpage for FLPT 240+" || echo "No changes to commit"
           git push
