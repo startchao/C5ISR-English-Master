@@ -14,7 +14,7 @@ def main():
 
     model = genai.GenerativeModel(target_model)
     
-    # 精選高階新聞源
+    # 精選高階新聞源，確保內容具備學術深度
     feeds = [
         "https://www.economist.com/international/rss.xml",
         "https://foreignpolicy.com/feed/",
@@ -25,35 +25,31 @@ def main():
     for url in feeds:
         try:
             f = feedparser.parse(url)
-            for entry in f.entries[:1]:
-                news_text += f"Topic: {entry.title}\nContext: {entry.summary}\n\n"
+            for entry in f.entries[:2]: # 每個來源抓取更多素材
+                news_text += f"Headline: {entry.title}\nContext: {entry.summary}\n\n"
         except: continue
 
-    # 修正後的 Prompt：強制要求先產出英文長文，再進行中文解析
+    # 針對你的需求優化 Prompt：全英文指令，針對 FLPT 衝刺，僅單字釋義保留中文輔助
     prompt = f"""
-    Target: FLPT Level C1+ (Goal: Score 240+).
-    Topic Materials: {news_text}
+    Target: FLPT Level C1+ (Score 240+).
+    Input Materials: {news_text}
     
-    Please structure the response as follows to ensure English immersion with Chinese support:
+    Task: Create a cohesive C1 academic analysis based on these materials. Structure your response in a news magazine format.
 
-    1. [English Essay] 
-       Write a 400-word academic essay based on the topics. 
-       - Level: C1 Advanced. 
-       - Requirement: Use sophisticated vocabulary and complex sentence structures (e.g., conditional sentences, inversion, and passive voice).
+    Part 1: [The Deep Read - 深度閱讀]
+    Write ONE contiguous 500-word academic analysis. The text should have proper paragraph breaks (at least 3-4 paragraphs), logically transitioning between introduction, arguments, and conclusion. 
+    - Use sophisticated C1 vocabulary and sentence structures (inversion, subjunctive mood, nominalization).
 
-    2. [Chinese Analysis - 文章結構與邏輯]
-       Briefly explain the essay's logical flow and transition markers in Traditional Chinese.
+    Part 2: [Analysis - 文章解析]
+    - Summary (English): 3 concise bullet points.
+    - Structural Analysis (Traditional Chinese): Explain how the essay is logically built.
 
-    3. [Vocabulary & Phrases - 核心詞彙與短句]
-       List 8 Power Vocabularies/Phrases from the essay.
-       - Format: Word/Phrase + IPA + Part of Speech.
-       - Chinese Definition + English Explanation.
-       - A real-world example sentence.
+    Part 3: [The Vocabulary Bank - 核心詞彙]
+    List 8 academic terms or idioms with definitions and Traditional Chinese meaning.
 
-    4. [FLPT Quiz - 模擬測驗]
-       2 Multiple-choice questions in English based on the essay. 
-       - Focus on INFERENCE (reading between the lines). 
-       - Provide answers and detailed explanations in Traditional Chinese at the end.
+    Part 4: [FLPT Inference Quiz - 模擬測驗]
+    - 2 Multiple-choice questions. DO NOT ask for facts; ask for the IMPLIED meaning.
+    - Provide answers and explanations (Traditional Chinese).
     """
     
     try:
@@ -63,7 +59,8 @@ def main():
         with open("Daily_Study.md", "w", encoding="utf-8") as f:
             f.write(content)
             
-        # 轉換成 HTML 並美化
+        # 轉換成 HTML 並應用《紐約時報》排版
+        # 我們自定義了一個 CSS 樣式表來達到襯線字體和柔和色彩的排版
         display_content = content.replace('# ', '<h1>').replace('## ', '<h2>').replace('\n', '<br>')
         
         html_template = """
@@ -72,19 +69,65 @@ def main():
         <head>
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>FLPT C1 Advanced Study</title>
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.2.0/github-markdown.min.css">
+            <title>C1 Advanced: Academic Immersion</title>
             <style>
-                body {{ box-sizing: border-box; min-width: 200px; max-width: 900px; margin: 0 auto; padding: 20px; }}
-                .markdown-body {{ padding: 30px; background: #fff; }}
-                h1 {{ color: #1a73e8; border-bottom: 3px solid #1a73e8; }}
-                h2 {{ color: #202124; background: #f1f3f4; padding: 8px; border-radius: 4px; }}
-                .essay-box {{ line-height: 1.8; font-size: 1.1em; color: #3c4043; }}
+                /* 《紐約時報》風格 CSS 開發 */
+                body {{
+                    font-family: 'NYTCheltenham', 'Georgia', 'serif'; /* 使用襯線字體提升閱讀體驗 */
+                    line-height: 1.8; /* 增加行距，降低閱讀壓力 */
+                    color: #121212; /* 使用深灰色而非純黑，更護眼 */
+                    background-color: #fdfdfd; /* 微米色背景，模仿紙張質感 */
+                    margin: 0;
+                    padding: 0;
+                    box-sizing: border-box;
+                }}
+                .container {{
+                    max-width: 720px; /* 限制寬度，更符合人類視線掃描範圍 */
+                    margin: 0 auto;
+                    padding: 40px 20px;
+                }}
+                h1 {{
+                    font-family: 'NYTImperial', 'Georgia', serif;
+                    font-size: 2.5em;
+                    color: #121212;
+                    text-align: center;
+                    margin-bottom: 30px;
+                }}
+                h2 {{
+                    font-size: 1.2em;
+                    text-transform: uppercase;
+                    color: #003366; /* 使用優雅的深藍色作為標題色 */
+                    letter-spacing: 0.1em;
+                    margin-top: 50px;
+                    border-bottom: 1px solid #ddd;
+                    padding-bottom: 5px;
+                }}
+                .academic-text {{
+                    font-size: 1.15em;
+                    color: #262626;
+                }}
+                .markdown-body {{
+                    box-sizing: border-box;
+                    min-width: 200px;
+                    max-width: 980px;
+                    margin: 0 auto;
+                    padding: 45px;
+                }}
+                @media (max-width: 767px) {{
+                    .container {{ padding: 20px 10px; }}
+                    h1 {{ font-size: 1.8em; }}
+                }}
             </style>
         </head>
         <body class="markdown-body">
-            <div style="text-align:right; font-weight:bold; color:#1a73e8;">Target: FLPT 240+</div>
-            {article}
+            <div class="container academic-text">
+                <div style="text-align:right; font-weight:bold; color:#003366;">FLPT 240+ Daily</div>
+                {article}
+                <hr>
+                <footer style="text-align:center; color:#666; font-size:0.9em; margin-top: 50px;">
+                    Generated by Gemini AI for startchao | Aim for FLPT 240+ | Styled with respect to NYT
+                </footer>
+            </div>
         </body>
         </html>
         """
