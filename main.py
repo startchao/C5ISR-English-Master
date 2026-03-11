@@ -3,7 +3,6 @@ import google.generativeai as genai
 import os
 
 def get_news():
-    # 抓取 CISA 與 Defense One 新聞
     feeds = ["https://www.cisa.gov/cybersecurity-alerts.xml", "https://www.defenseone.com/rss/all/"]
     all_content = ""
     for url in feeds:
@@ -13,38 +12,35 @@ def get_news():
                 all_content += f"Title: {entry.title}\nSummary: {entry.summary}\n\n"
         except:
             continue
-    return all_content if all_content else "Recent cybersecurity and defense infrastructure updates."
+    return all_content if all_content else "Recent C5ISR and cybersecurity updates."
 
 def main():
     api_key = os.environ.get("GEMINI_API_KEY")
     genai.configure(api_key=api_key)
     
-    # 修正：改用最穩定的模型名稱 gemini-pro
+    # 使用相容性最高的模型名稱
     model = genai.GenerativeModel('gemini-pro')
     
     news_data = get_news()
     
     prompt = f"""
-    You are a professional English tutor. Please use the following news to create a C1-level English study guide in Traditional Chinese:
-    News: {news_data}
-    
-    Format:
-    1. A rewrite of the news in advanced C1 English (about 300 words).
-    2. 5 Key academic/technical vocabulary with Chinese definitions and example sentences.
-    3. One grammar point analysis (complex sentence).
-    4. 2 Reading comprehension questions.
+    You are a professional C1 English tutor. Use this news: {news_data}
+    Create a study guide in Traditional Chinese:
+    1. Rewrite the news into a 300-word academic article (C1 level).
+    2. 5 Advanced vocabulary with definitions and example sentences.
+    3. One grammar analysis of a complex sentence.
+    4. 2 Reading comprehension questions with answers.
     """
     
     try:
         response = model.generate_content(prompt)
-        # 確保檔案一定會產生
+        content = response.text if response.text else "AI generation failed but script ran."
         with open("Daily_Study.md", "w", encoding="utf-8") as f:
-            f.write(response.text)
-        print("Successfully generated Daily_Study.md")
+            f.write(content)
+        print("File Daily_Study.md created successfully.")
     except Exception as e:
-        # 萬一 AI 真的失敗，產生一個錯誤說明檔，避免 Commit 報錯
         with open("Daily_Study.md", "w", encoding="utf-8") as f:
-            f.write(f"Generation failed: {str(e)}")
+            f.write(f"Error during AI generation: {str(e)}")
         print(f"Error: {e}")
 
 if __name__ == "__main__":
