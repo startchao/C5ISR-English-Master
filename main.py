@@ -19,7 +19,8 @@ def main():
     feeds = [
         "https://www.economist.com/international/rss.xml",
         "https://foreignpolicy.com/feed/",
-        "https://www.nytimes.com/services/xml/rss/nyt/World.xml"
+        "https://www.nytimes.com/services/xml/rss/nyt/World.xml",
+        "https://www.theguardian.com/world/rss"
     ]
     
     news_text = ""
@@ -31,38 +32,37 @@ def main():
         except: continue
 
     current_time = datetime.datetime.now().strftime("%Y-%m-%d %H:%M")
-    topic_buckets = ["Global Economy", "Geopolitics", "Tech & Cyber", "Social Justice", "Climate Policy"]
+    topic_buckets = [
+        "International Relations & Diplomacy", 
+        "Global Economic Trends", 
+        "Technology & Cyber Security", 
+        "Social Justice & Human Rights", 
+        "Environmental Policy & Energy"
+    ]
     selected_topic = random.choice(topic_buckets)
 
+    # 調整 Prompt：特別強調禁止使用全大寫
     prompt = f"""
     Target: FLPT Level C1+ (Score 240+).
     Theme: {selected_topic}
     Timestamp: {current_time}
     Materials: {news_text}
     
-    Please structure your response precisely in this order:
-
-    1. # [English Essay Title]
-       (Write a 500-word cohesive C1 academic essay in English. No bullet points in this section.)
-
-    2. ## [Full Chinese Translation - 全文中文翻譯]
-       (Provide a complete and faithful Traditional Chinese translation of the essay above.)
-
-    3. ## [Logic & Arguments - 邏輯解析]
-       (Brief Traditional Chinese analysis of the essay structure.)
-
-    4. ## [Power Vocabulary - 核心單字]
-       (8 words with IPA, definitions, Chinese, and examples.)
-
-    5. ## [FLPT Quiz - 模擬測驗]
-       (2 inference questions in English + Chinese explanations.)
+    Instructions:
+    1. Use Standard Case (Sentence case) for all headings and content. DO NOT use all caps.
+    2. Write a 500-word cohesive C1 academic essay in English. Start with a Title using '# '.
+    3. Provide a full Traditional Chinese translation immediately after the essay.
+    4. Provide the following sections using '## ' headings:
+       - Logic & Arguments (Traditional Chinese analysis)
+       - Power Vocabulary (8 words with IPA, definitions, Chinese, and examples. Use standard casing for words.)
+       - FLPT Reading Quiz (2 inference questions in English + Chinese explanations. Use standard casing for options.)
     """
     
     try:
         response = model.generate_content(prompt)
         content = response.text
         
-        # 精確標籤轉換邏輯
+        # 精確標籤與排版轉換
         processed_content = content.replace('# ', '<h1>', 1).replace('## ', '<h2>').replace('\n', '<br>')
         
         html_template = f"""
@@ -72,11 +72,11 @@ def main():
             <meta charset="UTF-8">
             <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>C1 Advanced Immersion</title>
+            <title>C1 Advanced Study - {current_time}</title>
             <style>
                 body {{
                     font-family: 'Georgia', serif;
-                    line-height: 1.55;
+                    line-height: 1.6;
                     color: #222;
                     background-color: #fff;
                     margin: 0; padding: 0;
@@ -84,71 +84,69 @@ def main():
                 .container {{
                     max-width: 600px;
                     margin: 0 auto;
-                    padding: 30px 20px;
+                    padding: 35px 20px;
                 }}
                 .header-meta {{
                     font-family: sans-serif;
                     font-size: 0.65rem;
                     color: #999;
                     text-transform: uppercase;
-                    letter-spacing: 1px;
+                    letter-spacing: 1.5px;
                     border-bottom: 1px solid #eee;
-                    margin-bottom: 15px;
+                    margin-bottom: 20px;
                     display: flex;
                     justify-content: space-between;
                 }}
                 h1 {{
-                    font-size: 1.5rem; /* 大幅縮小標題 */
+                    font-size: 1.6rem;
                     color: #000;
                     font-weight: normal;
-                    line-height: 1.2;
-                    margin-bottom: 20px;
+                    line-height: 1.25;
+                    margin-bottom: 25px;
                 }}
                 h2 {{
-                    font-size: 0.85rem;
+                    font-size: 0.95rem;
                     font-family: sans-serif;
-                    text-transform: uppercase;
                     color: #003366;
-                    margin-top: 30px;
-                    margin-bottom: 10px;
+                    margin-top: 45px;
+                    margin-bottom: 15px;
                     border-bottom: 1px solid #f0f0f0;
+                    padding-bottom: 5px;
                 }}
-                /* 英文全文與中文翻譯使用較小字體 */
-                .content {{
-                    font-size: 0.95rem; 
+                /* 英文全文與中文翻譯：精緻小字 */
+                .article-body {{
+                    font-size: 0.98rem;
                     text-align: left;
                     color: #333;
                 }}
-                /* 單字解析部分使用較大字體 */
-                h2:nth-of-type(3) ~ br, h2:nth-of-type(3) ~ .content, 
-                h2:contains("Power Vocabulary") ~ br {{
-                    font-size: 1.1rem;
+                /* 單字區與測驗區：放大字體，方便複習 */
+                h2:nth-of-type(3) ~ br, h2:nth-of-type(3) ~ div,
+                h2:nth-of-type(4) ~ br, h2:nth-of-type(4) ~ div,
+                .vocab-focus {{
+                    font-size: 1.15rem;
                 }}
-                /* 針對單字部分的特殊 CSS */
-                .vocab-section {{
-                    font-size: 1.1rem;
-                    background-color: #f9f9f9;
-                    padding: 10px;
-                    border-radius: 4px;
-                }}
-                br {{ content: ""; display: block; margin: 1.1em 0; }}
+                br {{ content: ""; display: block; margin: 1.2em 0; }}
                 .action-btn {{
-                    background: #eee; border: none; padding: 5px 10px;
-                    font-size: 0.7rem; border-radius: 3px; cursor: pointer;
-                    margin-bottom: 15px; font-family: sans-serif;
+                    background: #f8f8f8; border: 1px solid #ddd; padding: 6px 12px;
+                    font-size: 0.75rem; border-radius: 4px; cursor: pointer;
+                    margin-bottom: 20px; font-family: sans-serif; color: #555;
                 }}
+                footer {{ text-align: center; color: #ccc; font-size: 0.7rem; margin-top: 80px; padding-bottom: 30px; }}
             </style>
         </head>
         <body>
             <div class="container">
                 <div class="header-meta">
-                    <span>FLPT 240+ | Theme: {selected_topic}</span>
+                    <span>Target: FLPT 240+ | Theme: {selected_topic}</span>
                     <span>{current_time}</span>
                 </div>
-                <button class="action-btn" onclick="copyContent()">📋 Copy for Review</button>
-                <div class="content" id="study-content">
+                <button class="action-btn" onclick="copyContent()">📋 Copy Full Text</button>
+                <div class="article-body" id="study-content">
                     {processed_content}
                 </div>
+                <footer>
+                    NYT Styled Academic Study | Standard Case Refreshed
+                </footer>
                 <script>
                     function copyContent() {{
                         const text = document.getElementById('study-content').innerText;
