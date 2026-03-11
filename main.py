@@ -16,13 +16,10 @@ def main():
 
     model = genai.GenerativeModel(target_model)
     
-    # 擴展新聞來源：涵蓋財經、科技、法律與地緣政治
     feeds = [
         "https://www.economist.com/international/rss.xml",
         "https://foreignpolicy.com/feed/",
-        "https://www.nytimes.com/services/xml/rss/nyt/World.xml",
-        "https://search.cnbc.com/rs/search/view.xml?partnerId=2000&keywords=global+economy",
-        "https://www.theguardian.com/world/rss"
+        "https://www.nytimes.com/services/xml/rss/nyt/World.xml"
     ]
     
     news_text = ""
@@ -34,39 +31,38 @@ def main():
         except: continue
 
     current_time = datetime.datetime.now().strftime("%Y-%m-%d %H:%M")
-    
-    # 【核心更新】主題輪替機制：避免每天都太哲學
-    topic_buckets = [
-        "Global Economic Resilience & Financial Shifts",
-        "Geopolitical Strategy & International Relations",
-        "Emerging Technology, AI Ethics & Cybersecurity",
-        "Rule of Law, Human Rights & Social Justice",
-        "Climate Action, Energy Transition & Global Policy"
-    ]
+    topic_buckets = ["Global Economy", "Geopolitics", "Tech & Cyber", "Social Justice", "Climate Policy"]
     selected_topic = random.choice(topic_buckets)
 
     prompt = f"""
     Target: FLPT Level C1+ (Score 240+).
-    Primary Focus: {selected_topic}
+    Theme: {selected_topic}
     Timestamp: {current_time}
     Materials: {news_text}
     
-    Instructions:
-    1. Start with a bold headline using '# '.
-    2. Write a 500-word academic analysis in the style of an 'Analytical News Feature'. 
-    3. IMPORTANT: Avoid overly abstract or philosophical jargon. Focus on factual analysis, strategic trends, and real-world implications.
-    4. Use C1 Advanced English (complex syntax, high-level collocations).
-    5. After the essay, include:
-       - '## Logic & Key Arguments' (Traditional Chinese)
-       - '## Power Vocabulary' (8 words with IPA, definitions, Chinese, and examples)
-       - '## FLPT Reading Quiz' (2 inference questions in English + Chinese explanations)
+    Please structure your response precisely in this order:
+
+    1. # [English Essay Title]
+       (Write a 500-word cohesive C1 academic essay in English. No bullet points in this section.)
+
+    2. ## [Full Chinese Translation - 全文中文翻譯]
+       (Provide a complete and faithful Traditional Chinese translation of the essay above.)
+
+    3. ## [Logic & Arguments - 邏輯解析]
+       (Brief Traditional Chinese analysis of the essay structure.)
+
+    4. ## [Power Vocabulary - 核心單字]
+       (8 words with IPA, definitions, Chinese, and examples.)
+
+    5. ## [FLPT Quiz - 模擬測驗]
+       (2 inference questions in English + Chinese explanations.)
     """
     
     try:
         response = model.generate_content(prompt)
         content = response.text
         
-        # 標題與排版修正：確保大標題出現
+        # 精確標籤轉換邏輯
         processed_content = content.replace('# ', '<h1>', 1).replace('## ', '<h2>').replace('\n', '<br>')
         
         html_template = f"""
@@ -79,75 +75,88 @@ def main():
             <title>C1 Advanced Immersion</title>
             <style>
                 body {{
-                    font-family: 'Georgia', 'Times New Roman', serif;
-                    line-height: 1.6;
-                    color: #1a1a1a;
-                    background-color: #ffffff;
-                    margin: 0;
-                    padding: 0;
+                    font-family: 'Georgia', serif;
+                    line-height: 1.55;
+                    color: #222;
+                    background-color: #fff;
+                    margin: 0; padding: 0;
                 }}
                 .container {{
-                    max-width: 620px;
+                    max-width: 600px;
                     margin: 0 auto;
-                    padding: 50px 20px;
+                    padding: 30px 20px;
                 }}
                 .header-meta {{
-                    font-family: -apple-system, sans-serif;
-                    font-size: 0.7rem;
-                    font-weight: 700;
+                    font-family: sans-serif;
+                    font-size: 0.65rem;
                     color: #999;
                     text-transform: uppercase;
-                    letter-spacing: 2px;
-                    border-bottom: 1px solid #f0f0f0;
-                    margin-bottom: 30px;
+                    letter-spacing: 1px;
+                    border-bottom: 1px solid #eee;
+                    margin-bottom: 15px;
                     display: flex;
                     justify-content: space-between;
                 }}
                 h1 {{
-                    font-size: 2.1rem;
+                    font-size: 1.5rem; /* 大幅縮小標題 */
                     color: #000;
                     font-weight: normal;
-                    line-height: 1.15;
-                    margin-bottom: 35px;
-                    text-align: left;
+                    line-height: 1.2;
+                    margin-bottom: 20px;
                 }}
                 h2 {{
                     font-size: 0.85rem;
-                    font-family: -apple-system, sans-serif;
+                    font-family: sans-serif;
                     text-transform: uppercase;
-                    color: #444;
-                    margin-top: 45px;
-                    margin-bottom: 15px;
+                    color: #003366;
+                    margin-top: 30px;
+                    margin-bottom: 10px;
                     border-bottom: 1px solid #f0f0f0;
-                    letter-spacing: 0.05em;
                 }}
+                /* 英文全文與中文翻譯使用較小字體 */
                 .content {{
-                    font-size: 1.05rem;
-                    text-align: left; /* 保持紐時的不規則右邊緣，更有呼吸感 */
+                    font-size: 0.95rem; 
+                    text-align: left;
                     color: #333;
                 }}
-                br {{ content: ""; display: block; margin: 1.3em 0; }}
-                footer {{
-                    text-align: center;
-                    color: #ccc;
-                    font-size: 0.7rem;
-                    margin-top: 80px;
-                    font-family: sans-serif;
+                /* 單字解析部分使用較大字體 */
+                h2:nth-of-type(3) ~ br, h2:nth-of-type(3) ~ .content, 
+                h2:contains("Power Vocabulary") ~ br {{
+                    font-size: 1.1rem;
+                }}
+                /* 針對單字部分的特殊 CSS */
+                .vocab-section {{
+                    font-size: 1.1rem;
+                    background-color: #f9f9f9;
+                    padding: 10px;
+                    border-radius: 4px;
+                }}
+                br {{ content: ""; display: block; margin: 1.1em 0; }}
+                .action-btn {{
+                    background: #eee; border: none; padding: 5px 10px;
+                    font-size: 0.7rem; border-radius: 3px; cursor: pointer;
+                    margin-bottom: 15px; font-family: sans-serif;
                 }}
             </style>
         </head>
         <body>
             <div class="container">
                 <div class="header-meta">
-                    <span>Target: 240+ | Theme: {selected_topic}</span>
+                    <span>FLPT 240+ | Theme: {selected_topic}</span>
                     <span>{current_time}</span>
                 </div>
-                <div class="content">
+                <button class="action-btn" onclick="copyContent()">📋 Copy for Review</button>
+                <div class="content" id="study-content">
                     {processed_content}
                 </div>
-                <footer>
-                    FLPT Professional Series | Topic-Rotated Content
-                </footer>
+                <script>
+                    function copyContent() {{
+                        const text = document.getElementById('study-content').innerText;
+                        navigator.clipboard.writeText(text).then(() => {{
+                            alert('Copied to clipboard!');
+                        }});
+                    }}
+                </script>
             </div>
         </body>
         </html>
