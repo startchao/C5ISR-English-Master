@@ -18,30 +18,28 @@ def main():
     api_key = os.environ.get("GEMINI_API_KEY")
     genai.configure(api_key=api_key)
     
-    # 使用相容性最高的模型名稱
-    model = genai.GenerativeModel('gemini-pro')
+    # 修正重點：使用正確的模型名稱
+    model = genai.GenerativeModel('gemini-1.5-flash')
     
     news_data = get_news()
     
     prompt = f"""
     You are a professional C1 English tutor. Use this news: {news_data}
     Create a study guide in Traditional Chinese:
-    1. Rewrite the news into a 300-word academic article (C1 level).
-    2. 5 Advanced vocabulary with definitions and example sentences.
-    3. One grammar analysis of a complex sentence.
-    4. 2 Reading comprehension questions with answers.
+    1. Article: Rewrite the news into a 300-word academic article (C1 level).
+    2. Vocabulary: 5 Advanced terms with definitions and example sentences.
+    3. Grammar: Analyze one complex sentence from the text.
+    4. Quiz: 2 Reading comprehension questions with answers.
     """
     
     try:
         response = model.generate_content(prompt)
-        content = response.text if response.text else "AI generation failed but script ran."
         with open("Daily_Study.md", "w", encoding="utf-8") as f:
-            f.write(content)
-        print("File Daily_Study.md created successfully.")
+            f.write(response.text)
+        print("Success!")
     except Exception as e:
         with open("Daily_Study.md", "w", encoding="utf-8") as f:
-            f.write(f"Error during AI generation: {str(e)}")
-        print(f"Error: {e}")
+            f.write(f"Error: {str(e)}")
 
 if __name__ == "__main__":
     main()
