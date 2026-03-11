@@ -1,107 +1,131 @@
-# A World Adrift: Geopolitical Chaos, Drone Proliferation, and the Systemic Unravelling of Global Order
+# The Unraveling of Social Justice: A World in Peril
 
-The global landscape in early 2026 is defined by a confluence of accelerating crises, fundamentally reshaping geopolitical norms, economic certainties, and humanitarian stability. From the volatile Middle East to the embattled heart of Africa, a complex web of conflicts, amplified by emerging technologies, threatens to unravel established order. This systemic unravelling demands an urgent analytical focus on interconnected trends, particularly the escalating impact of technological weaponization, the fragility of state governance, and the profound economic and human costs.
+Amidst escalating global chaos and the resurgence of regional conflicts, the foundational ideals of social justice face an unprecedented assault, challenging principles of equity, human dignity, and collective well-being. The current geopolitical landscape, marked by economic volatility, pervasive warfare, and entrenched authoritarianism, underscores a critical erosion of the safeguards that once promised a more just future. This interconnected web of crises demands an urgent re-evaluation of international priorities and a concerted focus on the needs of all people, particularly the most vulnerable.
 
-Central to this global disquiet is the deepening crisis around Iran, marked by the contentious selection of Mojtaba Khamenei, a sign of political exhaustion and public apprehension within the regime. This internal dynamic is intertwined with the escalating external conflict, notably articulated as 'Trump’s War With Iran Changed the World in a Week'. The ramifications are global: altered travel patterns, shifted energy dependencies, rising living costs, disrupted trade routes, and recalibrated diplomatic alliances. The Strait of Hormuz, a critical conduit for a fifth of global oil, faces unprecedented threats, prompting a coalition of 32 countries to tap oil reserves to stabilize prices – a stark indicator of the conflict’s global economic footprint. In this turbulent environment, India's earlier confidence in managing an unpredictable America has evidently waned, reflecting a necessary recalibration of its foreign policy in an increasingly chaotic world.
+The economic repercussions of global disorder are proving to be a potent adversary to social justice. India, once seemingly confident in its capacity to navigate an unpredictable American foreign policy, now confronts the stark reality that it has much to lose from a world steeped in chaos. This vulnerability is not isolated; it reflects a broader global susceptibility to disruptions originating from distant conflicts. The escalating war in the Middle East, for instance, has effectively imperiled the Strait of Hormuz, a critical conduit for a fifth of the world’s oil. Reports of ships being hit by unidentified projectiles illustrate the immediate danger, prompting a coalition of 32 countries to tap oil reserves to stabilize prices. However, such measures are merely reactive. The broader conflict, exacerbated by events like “Trump’s War with Iran,” has already profoundly "changed the world in a week," reshaping travel patterns, energy dependencies, living costs, trade routes, and diplomatic alliances. These seismic shifts disproportionately burden developing economies and vulnerable populations, pushing millions further into economic precarity and undermining fundamental rights to stable livelihoods and affordable living.
 
-The widespread proliferation of drone technology is fundamentally altering the character of modern warfare, empowering both state and non-state actors with unprecedented precision and reach. The conflict in Ukraine has dramatically underscored the efficacy of drone technology, with thousands of Iranian-made Shaheds now reportedly raining down on the Gulf region, raising immediate questions about their supply chains and tactical applications in an expanded Middle East conflict. The lethal deployment of drones, once a capability primarily of advanced militaries, is now a pervasive feature of internal conflicts. The grim reality of a French aid worker among three killed in a drone attack in the Democratic Republic of Congo (DRC) starkly illustrates this shift. The M23 rebels' claim of responsibility, alongside accusations against the government, points to the increasingly complex and opaque nature of modern internal conflicts, where emerging technologies exacerbate existing vulnerabilities and blur lines of accountability.
+Beyond economic dislocation, the human cost of current global instability represents a profound failure of social justice. The thousands of Shahed drones raining down on the Gulf, raising questions about whether Ukraine's expertise could help defeat Iran's drone swarms, highlight the ubiquitous threat of modern warfare. This technological proliferation contributes to the dehumanization of conflict, making it easier to inflict widespread damage and suffering. Nowhere is the long-term human impact more tragically evident than in conflict zones, such as Gaza. Here, the imperative that "Gaza’s Reconstruction Must Begin With Its Youth" underscores the devastating psychological toll of conflict. A better future for Palestine hinges not merely on physical rebuilding, but crucially on the "psychological recovery" of its young population, who bear the invisible wounds of trauma, displacement, and shattered prospects. Failure to address this deep-seated need is a grave injustice, condemning a generation to cycles of despair and perpetuating intergenerational suffering.
 
-Beyond the immediate battlefield, the human and economic costs are cascading. Gaza's future, as highlighted by the imperative for psychological recovery among its youth, underscores the long-term societal damage wrought by protracted conflict. Meanwhile, Nigeria’s north-east continues to reel from jihadist raids by Islamic State West Africa Province (ISWAP), resulting in the deaths of at least 65 soldiers and the abduction of 300 civilians. These protracted insurgencies, exacerbating existing vulnerabilities, exemplify state fragility and the persistent challenge of global terrorism.
+Furthermore, the rise or consolidation of autocratic tendencies directly erodes social justice by stifling fundamental freedoms and democratic participation. In Iran, "Mojtaba’s Selection" as a potential successor to the Supreme Leader is a stark "sign of political exhaustion," where the regime has imposed precisely "what many Iranians feared." This perpetuation of dynastic rule and suppression of popular will denies citizens their inherent right to self-determination and political agency, embodying a profound systemic injustice. Such political disenfranchisement is not merely an internal affair; it often fuels regional instability and international tensions, creating a feedback loop that further jeopardizes human rights and exacerbates global chaos.
 
-The current global climate is not merely one of isolated crises but a complex tapestry of interconnected threats. Geopolitical volatility in the Middle East, the pervasive weaponization of drone technology across diverse conflict zones, and the enduring humanitarian and economic consequences collectively demand a comprehensive and nuanced international response. Addressing this systemic unravelling requires a multifaceted and multilateral approach, acknowledging that stability in one region is inextricably linked to the security and resilience of the entire global system.
-
----
-
-## Logic & Key Arguments (邏輯與關鍵論點)
-
-1.  **全球不穩定性加劇 (Escalating Global Instability)**: 開篇點出全球正處於前所未有的混亂中，地緣政治動盪、新興科技武器化（無人機）及經濟/人道後果相互交織，威脅著既有秩序。
-2.  **中東衝突的核心角色與全球影響 (Central Role of Middle East Conflict & Global Impact)**:
-    *   以伊朗內部（Mojtaba Khamenei 的選擇）與外部衝突為核心，強調其對全球格局的深遠影響，例如「川普與伊朗的戰爭在一週內改變了世界」。
-    *   霍爾木茲海峽作為全球石油關鍵樞紐面臨威脅，導致32國聯手動用石油儲備穩定油價，凸顯其全球經濟重要性。
-    *   印度對「不可預測的美國」的信心減弱，反映其在地緣政治混亂中調整策略的必要性。
-3.  **無人機技術的普及與威脅 (Proliferation and Threat of Drone Technology)**:
-    *   闡述無人機在現代衝突中的普遍應用，從烏克蘭戰場（伊朗製 Shaheds 在海灣地區大量出現）到非洲內部衝突（剛果民主共和國的無人機襲擊造成平民死亡）。
-    *   強調無人機技術賦予國家及非國家行為者更強大的能力，降低了高階攻擊的門檻，加劇了不穩定性並模糊了責任歸屬。
-4.  **人道與經濟的深遠影響 (Profound Humanitarian and Economic Repercussions)**:
-    *   討論衝突帶來的廣泛後果，包括生活成本上升、貿易路線改變、加薩青年心理創傷的重建需求，以及奈及利亞境內恐怖主義（ISWAP）造成的持續性人道危機和國家脆弱性。
-5.  **結論：相互關聯的危機與多邊應對 (Conclusion: Interconnected Crises & Multilateral Response)**:
-    *   強調這些危機並非孤立事件，而是相互關聯的複雜系統。
-    *   呼籲國際社會需採取多層次、多邊的應對措施，以穩定全球秩序，應對地緣政治、技術和人道挑戰。
+Ultimately, the present global crises are not merely isolated incidents but interconnected manifestations of a world grappling with a severe deficit in social justice. From economic insecurity impacting entire nations to the psychological devastation of youth in war zones and the denial of political freedoms, the human fabric of society is unraveling. Addressing this requires a paradigm shift: moving beyond reactive crisis management towards proactive, equitable, and human-centric policies. A truly just world demands an unwavering commitment to diplomacy, international cooperation, and the empowerment of all individuals, ensuring that the promise of peace and prosperity is not an illusion, but a tangible reality for every generation.
 
 ---
 
-## Power Vocabulary
+## 全文中文翻譯
 
-1.  **Volatile** ( /ˈvɒlətaɪl/ )
-    *   **Definition**: Liable to change rapidly and unpredictably, especially for the worse.
-    *   **Chinese**: 變幻莫測的，不穩定的
-    *   **Example**: The global geopolitical landscape has become increasingly **volatile**, marked by rapid and unpredictable shifts.
+### 社會正義的崩解：一個危險的世界
 
-2.  **Recalibrated** ( /ˌriːˈkælɪbreɪtɪd/ )
-    *   **Definition**: Adjusted or reset (something) in light of new information or circumstances.
-    *   **Chinese**: 重新校準的，調整的
-    *   **Example**: India's earlier confidence in managing an unpredictable America has evidently waned, reflecting a necessary **recalibration** of its foreign policy.
+在全球混亂不斷升級和區域衝突死灰復燃之際，社會正義的根本理想正遭受前所未有的攻擊，挑戰著公平、人類尊嚴和集體福祉的原則。當前的地緣政治格局，以經濟波動、普遍戰爭和根深蒂固的威權主義為標誌，凸顯了曾經承諾更公正未來的保障措施正嚴重侵蝕。這種相互關聯的危機網絡要求緊急重新評估國際優先事項，並集中關注所有人民，特別是最弱勢群體的福祉和未來。
 
-3.  **Conduit** ( /ˈkɒnduːɪt/ )
-    *   **Definition**: A channel for conveying water or other fluid; a means by which something is transmitted.
-    *   **Chinese**: 導管，傳輸途徑
-    *   **Example**: The Strait of Hormuz, a critical **conduit** for a fifth of global oil, faces unprecedented threats.
+全球混亂的經濟後果正成為社會正義的強大敵人。印度，曾經看似自信能夠駕馭美國不可預測的外交政策，現在面臨著從一個陷入混亂的世界中可能損失慘重的嚴峻現實。這種脆弱性並非孤立現象；它反映了全球對源於遙遠衝突的干擾的普遍敏感性。例如，中東戰爭的升級已有效地危及荷莫茲海峽，這是全球五分之一石油的關鍵運輸通道。船隻遭到不明投射物襲擊的報導，說明了迫在眉睫的危險，促使由32個國家組成的聯盟動用石油儲備以穩定價格。然而，這些措施僅是應急反應。更廣泛的衝突，因「川普與伊朗的戰爭」等事件而加劇，已在「一周內改變了世界」，重塑了旅行模式、能源依賴、生活成本、貿易路線和外交聯盟。這些劇烈變化不成比例地加重了發展中經濟體和弱勢群體的負擔，使數百萬人進一步陷入經濟不穩定，並損害了穩定生計和負擔得起的生活的基本權利。
 
-4.  **Proliferation** ( /prəˌlɪfəˈreɪʃən/ )
-    *   **Definition**: Rapid increase in numbers or extent.
-    *   **Chinese**: 迅速增加，擴散
-    *   **Example**: The widespread **proliferation** of drone technology is fundamentally altering the character of modern warfare.
+除了經濟混亂，當前全球不穩定的_人道_代價代表了社會正義的嚴重失敗。成千上萬的見證者無人機在海灣地區降下，引發了烏克蘭的專業知識能否幫助擊敗伊朗無人機群的問題，這突顯了現代戰爭普遍存在的威脅。這種技術擴散導致衝突非人化，使得造成廣泛破壞和痛苦變得更容易。長期的人道影響在衝突地區，如加薩，表現得最為悲慘。在這裡，「加薩重建必須從青年開始」的必要性，強調了衝突造成的毀滅性心理創傷。巴勒斯坦更美好的未來不僅取決於實體重建，更關鍵地取決於其年輕人口的「心理復原」，他們承受著創傷、流離失所和破碎希望的無形創傷。未能解決這種根深蒂固的需求是一種嚴重的不公，將一代人判入絕望的循環，並使世代痛苦持續下去。
 
-5.  **Efficacy** ( /ˈɛfɪkəsi/ )
-    *   **Definition**: The ability to produce a desired or intended result.
-    *   **Chinese**: 效力，效能
-    *   **Example**: The conflict in Ukraine has dramatically underscored the **efficacy** of drone technology.
+此外，威權主義傾向的興起或鞏固，透過扼殺基本自由和民主參與，直接侵蝕社會正義。在伊朗，「莫吉塔巴的選擇」作為最高領袖的潛在繼任者，是「政治疲憊的明顯標誌」，政權施加了「許多伊朗人所擔心的」精確結果。這種世襲統治的延續和民眾意願的壓制，剝奪了公民與生俱來的自決權和政治自主權，體現了深刻的系統性不公。這種政治權利的剝奪不僅僅是內部事務；它往往會加劇區域不穩定和國際緊張局勢，形成一個惡性循環，進一步危及人權並加劇全球混亂。
 
-6.  **Exacerbating** ( /ɪɡˈzæsərbeɪtɪŋ/ )
-    *   **Definition**: Making a problem, bad situation, or negative feeling worse.
-    *   **Chinese**: 加劇的，惡化的
-    *   **Example**: These protracted insurgencies, **exacerbating** existing vulnerabilities, exemplify state fragility and the persistent challenge of global terrorism.
-
-7.  **Protracted** ( /prəˈtræktɪd/ )
-    *   **Definition**: Lasting for a long time or longer than expected or usual.
-    *   **Chinese**: 持久的，拖延的
-    *   **Example**: These **protracted** insurgencies, exacerbating existing vulnerabilities, exemplify state fragility and the persistent challenge of global terrorism.
-
-8.  **Multifaceted** ( /ˌmʌltiˈfæsɪtɪd/ )
-    *   **Definition**: Having many facets or aspects.
-    *   **Chinese**: 多面向的，多方面的
-    *   **Example**: Addressing this systemic unravelling demands a **multifaceted** and multilateral international response.
+歸根結底，當前的全球危機不僅僅是孤立事件，而是世界正在應對嚴重社會正義赤字的相互關聯表現。從影響整個國家的經濟不安全，到戰爭地區青年遭受的心理破壞，以及政治自由的剝奪，社會的人文結構正在瓦解。解決這一切需要範式轉變：從被動的危機管理轉向主動、公平和以人為本的政策。一個真正公正的世界要求對外交、國際合作和賦予所有個人權力作出堅定不移的承諾，確保和平與繁榮的承諾不是幻象，而是每一代人都能實現的具體現實。
 
 ---
 
-## FLPT Reading Quiz
+## 邏輯解析
 
-**1. The essay mentions that "India's earlier confidence in managing an unpredictable America has evidently waned." What does this statement *most strongly infer* about the current global power dynamics and India's strategic calculations?**
+這篇文章以C1學術散文的結構撰寫，旨在探討全球混亂與區域衝突如何侵蝕社會正義。其結構清晰，論證嚴謹：
 
-A) India is now seeking a closer alliance with Russia to counter US influence.
-B) India perceives the US as less reliable or predictable, forcing it to reassess its strategic autonomy in a chaotic world.
-C) India believes its domestic challenges are too great to engage with international affairs.
-D) India is actively trying to destabilize the global order by becoming less predictable itself.
+1.  **引言 (Introduction):**
+    *   開宗明義，提出核心論點：全球混亂與衝突正在嚴重侵蝕社會正義的理想。
+    *   點明當前地緣政治的特點（經濟波動、普遍戰爭、威權主義）。
+    *   強調這些危機的相互關聯性，並呼籲重新評估國際優先事項，關注弱勢群體。
 
-*   **Explanation (Chinese):**
-    *   **正確答案：B**
-    *   **解釋：** 文章指出印度對處理「不可預測的美國」的信心「顯然減弱」，這暗示印度將美國視為一個不那麼可靠或穩定的夥伴。在一個混亂的世界中，這會促使印度重新評估其外交策略和地緣政治定位，以確保自身利益。
-    *   **錯誤選項分析：**
-        *   A) 文章未提及印度尋求與俄羅斯結盟的具體意圖，這是一種過度推斷。
-        *   C) 文章討論的是印度的國際立場，而非其國內問題對外交的絕對限制。雖然國內問題可能影響外交，但「太過巨大」以至於無法參與國際事務的推論不夠準確。
-        *   D) 文章沒有任何證據表明印度正在積極製造全球不穩定，而是在「重新校準」其策略以應對不穩定。
+2.  **主體段落一：地緣政治不穩定與經濟正義 (Geopolitical Instability & Economic Justice):**
+    *   探討全球混亂對經濟層面的影響，將其視為社會正義的敵人。
+    *   以印度對全球混亂的脆弱性為例，說明即使是新興大國也無法倖免。
+    *   具體分析中東衝突（荷莫茲海峽、油價、航運安全）對全球經濟的衝擊，並引用「川普與伊朗的戰爭」對旅行、能源、生活成本和貿易路線的深遠影響。
+    *   強調這些經濟變動不成比例地加重了發展中經濟體和弱勢群體的負擔，構成經濟不公。
 
-**2. The essay highlights the widespread "proliferation of drone technology" across various conflicts. What is the *most significant implication* of this trend for global security, as suggested by the text?**
+3.  **主體段落二：人道危機與青年世代 (Humanitarian Crises & Youth):**
+    *   將論點從經濟層面轉移到衝突帶來的人道代價。
+    *   以伊朗無人機在海灣地區的部署和烏克蘭的防禦經驗，突顯現代戰爭的普遍性和非人化。
+    *   重點聚焦加薩地區青年所承受的「心理創傷」，強調重建不僅是物質層面，更需關注心理復原，否則將導致世代不公與痛苦的循環。
 
-A) It indicates a decline in traditional ground warfare tactics in favor of air superiority.
-B) It demonstrates that only advanced nation-states can effectively wage modern warfare.
-C) It suggests that sophisticated weaponry is becoming more accessible, empowering a broader range of state and non-state actors and escalating conflict.
-D) It implies that cybersecurity will become the sole focus of future military strategies.
+4.  **主體段落落三：威權主義與政治正義 (Authoritarianism & Political Justice):**
+    *   進一步探討威權主義如何直接侵蝕社會正義。
+    *   以伊朗最高領袖繼承人選「莫吉塔巴的選擇」為例，揭示政治壓迫如何剝奪公民的自決權和政治自由。
+    *   指出這種政治上的不公不僅是內部事務，也加劇了區域不穩定和國際緊張，形成惡性循環。
 
-*   **Explanation (Chinese):**
-    *   **正確答案：C**
-    *   **解釋：** 文章指出無人機技術的「普及」使其成為「普遍的特徵」，並提到其如何「賦予國家和非國家行為者權力」，以及導致剛果民主共和國平民傷亡。這綜合表明，先進武器變得更容易獲得，從而加劇了衝突並使得各種行為者都能發動攻擊。
-    *   **錯誤選項分析：**
-        *   A) 雖然無人機的使用增加，但文章並未明確指出傳統地面戰術正在「衰落」，只是說明無人機的「效力」。
-        *   B) 文章明確提到無人機技術也被非國家行為者（如M23叛軍）使用，這與「只有先進國家才能有效作戰」的說法相悖。
-        *   D) 儘管網路安全很重要，但文章強調的是無人機的物理破壞力和擴散，沒有暗示網路安全將成為「唯一」的軍事焦點。
+5.  **結論 (Conclusion):**
+    *   總結並重申核心論點：全球危機是社會正義嚴重缺失的表現。
+    *   呼籲從被動的危機管理轉向主動、公平和以人為本的政策。
+    *   強調實現真正公正的世界，需要堅定的外交、國際合作和賦予個體權力，以確保和平與繁榮的承諾成為現實。
+
+整體而言，文章結構清晰，每個段落都有明確的中心思想，並透過具體事例支撐論點。從宏觀的經濟影響到微觀的人道苦難，再到政治層面的不公，層層深入，展現了C1等級的學術分析能力。各個分散的材料點都被巧妙地融入論證中，形成了一個連貫且有說服力的整體。
+
+---
+
+## 核心單字 (Power Vocabulary)
+
+1.  **Assault** /əˈsɔːlt/
+    *   **Definition:** A strong verbal or physical attack. In a broader sense, a concerted attempt to undermine something.
+    *   **Chinese:** 攻擊；襲擊；猛攻
+    *   **Example:** The new policy faced an **assault** from opposition parties who claimed it would harm the economy.
+
+2.  **Precarity** /prɪˈkɛrəti/
+    *   **Definition:** The state of being uncertain, unstable, or insecure. Often refers to economic or social conditions.
+    *   **Chinese:** 不穩定性；不確定性；危險性
+    *   **Example:** Many gig economy workers live in a state of financial **precarity** due to inconsistent income.
+
+3.  **Ubiquitous** /juːˈbɪkwɪtəs/
+    *   **Definition:** Present, appearing, or found everywhere.
+    *   **Chinese:** 無處不在的；普遍存在的
+    *   **Example:** In the digital age, smartphones have become **ubiquitous** tools for communication and information.
+
+4.  **Imperative** /ɪmˈpɛrətɪv/
+    *   **Definition:** Of vital importance; crucial. Also, a command or an urgent need.
+    *   **Chinese:** 極重要的；緊急的；必須的；命令
+    *   **Example:** It is **imperative** that we act now to address climate change before it's too late.
+
+5.  **Disenfranchisement** /ˌdɪsɪnˈfrænʧaɪzmənt/
+    *   **Definition:** The state of being deprived of a right or privilege, especially the right to vote.
+    *   **Chinese:** 剝奪公民權/選舉權；權利被剝奪
+    *   **Example:** Historically, many groups have faced political **disenfranchisement** based on their race or gender.
+
+6.  **Paradigm** /ˈpærədaɪm/
+    *   **Definition:** A typical example or pattern of something; a model. Often used to describe a fundamental change in approach or underlying assumptions.
+    *   **Chinese:** 範式；典範；模型
+    *   **Example:** The rise of renewable energy sources represents a **paradigm** shift in how we approach power generation.
+
+7.  **Capricious** /kəˈprɪʃəs/
+    *   **Definition:** Given to sudden and unaccountable changes of mood or behavior; unpredictable.
+    *   **Chinese:** 反覆無常的；任性的；善變的
+    *   **Example:** The weather in the mountains can be quite **capricious**, changing from sunny to stormy in minutes.
+
+8.  **Hinges (on)** /ˈhɪnʤɪz/
+    *   **Definition:** (Verb) Depends entirely on.
+    *   **Chinese:** 依賴於；取決於
+    *   **Example:** The success of the project **hinges** on securing sufficient funding.
+
+---
+
+## FLPT 模擬測驗
+
+1.  **Inference Question 1:**
+    Based on the essay, what is the primary reason why India's previous confidence in handling global unpredictability has waned?
+    A) Its growing military reliance on unpredictable American foreign policy.
+    B) The realization that its economy is intricately linked to widespread global chaos and conflict.
+    C) The immediate threat of direct military attacks in its own territory.
+    D) Its decreasing influence in international trade routes and diplomatic alliances.
+
+    **Chinese Explanation:**
+    正確答案是 **B) The realization that its economy is intricately linked to widespread global chaos and conflict.**
+    文章中提到：「印度，曾經看似自信能夠駕馭美國不可預測的外交政策，現在面臨著從一個陷入混亂的世界中可能損失慘重的嚴峻現實。這種脆弱性並非孤立現象；它反映了全球對源於遙遠衝突的干擾的普遍敏感性。」這表明印度失去信心並非因為特定的軍事依賴，也不是直接受到攻擊，而是意識到全球性的混亂（例如中東衝突影響油價和貿易路線）會對其自身經濟造成深遠影響。選項D是全球混亂的一個結果，而非印度信心動搖的直接原因，且文章未明確指出印度影響力下降。
+
+2.  **Inference Question 2:**
+    The essay suggests that the psychological recovery of Gaza's youth is crucial for "a better future for Palestine" primarily because:
+    A) It would facilitate faster physical rebuilding of infrastructure.
+    B) It addresses the root causes of conflict and political disenfranchisement.
+    C) Untreated trauma could perpetuate cycles of despair and hinder societal progress.
+    D) International aid is contingent upon improved mental health in the region.
+
+    **Chinese Explanation:**
+    正確答案是 **C) Untreated trauma could perpetuate cycles of despair and hinder societal progress.**
+    文章中寫道：「一個更好的巴勒斯坦未來不僅取決於實體重建，更關鍵地取決於其年輕人口的『心理復原』，他們承受著創傷、流離失所和破碎希望的無形創傷。未能解決這種根深蒂固的需求是一種嚴重的不公，將一代人判入絕望的循環，並使世代痛苦持續下去。」這段話明確指出，若不處理心理創傷，將會導致「絕望的循環」和「世代痛苦持續」，間接阻礙社會進步，使「更好的未來」難以實現。選項A雖然重要，但文章強調的是心理層面。選項B部分正確，但心理復原本身更直接關乎個體創傷而非根除衝突原因。選項D未在文章中提及。
