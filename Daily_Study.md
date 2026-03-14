@@ -1,131 +1,118 @@
-# The Multifaceted Pursuit of Social Justice in Contemporary Society
+# The Unfolding Moral Landscape of Technological Innovation
 
-Social justice stands as a cornerstone principle for any society aspiring towards fairness, equity, and human dignity. Far beyond mere legal equality, it encompasses the equitable distribution of resources, opportunities, and privileges within a community, ensuring that all individuals, irrespective of their background, can flourish. While the ideal of social justice is universally lauded, its practical realization remains an ongoing, complex endeavor, necessitating systemic reform, active civic participation, and a continuous re-evaluation of entrenched societal structures.
+The relentless march of technological innovation has irrevocably reshaped human existence, permeating every facet of our lives from communication to healthcare. While these advancements promise unparalleled progress and convenience, they simultaneously unveil a complex moral landscape, posing profound ethical dilemmas that often outpace our societal capacity to formulate adequate responses. This essay will examine critical ethical challenges arising from the rapid evolution of technology, advocating for a proactive, multidisciplinary approach to ensure that innovation remains fundamentally human-centric and equitable.
 
-At its conceptual core, social justice extends beyond addressing individual acts of prejudice to confronting systemic inequalities. This involves understanding distributive justice, which concerns the fair allocation of goods and burdens; procedural justice, focusing on impartiality in decision-making processes; and corrective justice, which seeks to rectify past wrongs. However, achieving these is frequently hampered by **entrenched** disparities across economic, racial, gender, and other identity lines. Historical injustices, such as colonialism, slavery, and persistent discrimination, have created **myriad** disadvantages that continue to reverberate through generations, manifesting as unequal access to education, healthcare, housing, and legal representation. The concept of intersectionality further illuminates how various forms of discrimination can overlap and interact, exacerbating marginalization for specific groups.
+One of the most pressing ethical frontiers lies in the realm of Artificial Intelligence (AI) and its burgeoning autonomy. As AI systems become increasingly sophisticated, capable of making decisions, performing intricate tasks, and even exhibiting a form of learning, questions of accountability, bias, and control become paramount. Algorithms, often trained on biased historical data, can perpetuate and amplify societal inequalities in areas such as criminal justice, employment, and loan approvals. Furthermore, the delegation of critical decisions to autonomous systems, from self-driving vehicles to military drones, raises profound questions about moral agency and liability in the event of harm. Ensuring transparency, explainability, and robust human oversight in AI development is not merely a technical challenge but an imperative ethical commitment.
 
-To advance social justice, a dual approach combining top-down policy interventions and bottom-up grassroots advocacy is **imperative**. Governments play a pivotal role in enacting progressive legislation and policies designed to **mitigate** inequalities. This includes progressive taxation to redistribute wealth, universal healthcare systems to ensure access to essential services, robust educational reforms to provide equitable opportunities, and comprehensive anti-discrimination laws. Affirmative action policies, despite their contentious nature, represent an effort to proactively address historical disadvantages by fostering greater representation for underrepresented groups. Furthermore, ensuring transparent and accountable public institutions is crucial, as corruption and institutional bias can **perpetuate** injustice, eroding public trust and exacerbating vulnerabilities.
+Another significant concern is the pervasive collection and utilization of personal data, which forms the bedrock of many modern technological services. While data analytics offers immense benefits, from personalized healthcare to efficient urban planning, it simultaneously presents severe risks to individual privacy and autonomy. The rise of surveillance capitalism, where personal data is meticulously harvested and monetized, blurs the lines between convenience and exploitation. Government surveillance programs, often justified under national security pretexts, further erode civil liberties and foster a climate of distrust. Establishing robust data governance frameworks, upholding principles of informed consent, and safeguarding against data breaches are essential for protecting individual rights in an increasingly digital world.
 
-Equally vital is the role of active civic engagement and cultural transformation. Grassroots movements, non-governmental organizations, and civil society groups serve as crucial **catalysts** for change, challenging existing power structures, raising public awareness, and advocating for marginalized voices. Public discourse, facilitated by responsible media and educational initiatives, can foster empathy, dismantle stereotypes, and cultivate a collective understanding of systemic injustices. Ultimately, true social justice requires a shift in cultural values—a collective commitment to solidarity, inclusivity, and a recognition of shared humanity. This means actively challenging prejudices, biases, and discriminatory norms within daily interactions and community life, fostering environments where diversity is celebrated, and equity is not just an aspiration but a lived reality.
+Beyond individual concerns, technology profoundly impacts the fabric of society, often with unforeseen consequences. Social media platforms, initially heralded as tools for connection and democratization, have ironically contributed to societal polarization, the spread of misinformation, and the erosion of mental well-being among certain demographics. Moreover, the global digital divide exacerbates existing socioeconomic inequalities, creating a chasm between those who can harness technological advantages and those who are excluded. Tech companies, as powerful arbiters of digital experience, bear a significant ethical responsibility to design platforms that prioritize user well-being, promote inclusivity, and actively combat harmful content.
 
-In conclusion, the pursuit of social justice is a dynamic and evolving process that demands constant vigilance and concerted effort. It is not merely about achieving a static state of fairness but about continuously striving to dismantle barriers, address historical grievances, and construct societies where every individual has the opportunity to thrive. By integrating systemic reforms with vigorous civic participation and fostering a culture of empathy and equity, humanity can incrementally move closer to realizing the profound promise of social justice for all.
+In conclusion, the transformative power of technological innovation demands an equally robust commitment to ethical foresight and governance. The intricate challenges posed by AI autonomy, data privacy concerns, and broader societal impacts necessitate a collaborative, interdisciplinary dialogue involving policymakers, ethicists, technologists, and the public. Only by proactively weaving ethical considerations into the very fabric of technological development can humanity steer innovation towards a future that upholds justice, equity, and human dignity, rather than inadvertently creating new forms of disenfranchisement and control.
 
 ---
 
-**社會正義在當代社會中的多面向追求**
+# 科技創新的道德版圖持續開展
 
-社會正義是任何追求公平、平等和人類尊嚴的社會的基石原則。它遠不僅僅是法律上的平等，更涵蓋了社區內資源、機會和特權的公平分配，確保所有個人，不論其背景如何，都能蓬勃發展。儘管社會正義的理想受到普遍讚揚，但其實際實現仍然是一項持續、複雜的任務，需要系統性改革、積極的公民參與以及對根深蒂固的社會結構進行持續重新評估。
+科技創新的不懈推進已徹底重塑人類生存，從通訊到醫療保健，無不滲透我們生活的每個層面。儘管這些進步承諾帶來無與倫比的發展和便利，它們同時也揭示了一個複雜的道德版圖，提出深刻的倫理困境，這些困境往往超越我們社會建立充分應對措施的能力。本文旨在檢視科技快速發展所引發的關鍵倫理挑戰，倡導一種積極主動、多學科的方法，以確保創新從根本上以人為本並實現公平。
 
-從概念核心來看，社會正義超越了處理個別的偏見行為，更在於應對系統性的不平等。這包括理解分配正義（關於商品和負擔的公平分配）、程序正義（專注於決策過程中的公正性）和矯正正義（旨在糾正過去的錯誤）。然而，實現這些目標經常受到經濟、種族、性別和其他身份界線上的**根深蒂固的**差異的阻礙。歷史上的不公，例如殖民主義、奴隸制和持續的歧視，造成了**無數的**劣勢，這些劣勢持續影響著世代，表現為教育、醫療保健、住房和法律代表方面的不平等。交叉性（intersectionality）的概念進一步闡明了各種形式的歧視如何重疊和相互作用，加劇了特定群體的邊緣化。
+最緊迫的倫理前沿之一在於人工智慧（AI）及其日益增長的自主性。隨著AI系統變得日益複雜，能夠做出決策、執行複雜任務甚至展現某種形式的學習，問責制、偏見和控制權的問題變得至關重要。演算法通常基於有偏見的歷史數據進行訓練，可能在刑事司法、就業和貸款批准等領域延續並放大社會不平等。此外，將關鍵決策委託給自主系統，從自動駕駛汽車到軍用無人機，引發了關於在造成傷害時道德責任和賠償的深刻問題。確保AI開發的透明度、可解釋性和強大的人類監督，不僅是一項技術挑戰，更是一項勢在必行的倫理承諾。
 
-為了推進社會正義，結合自上而下的政策干預和自下而上的基層倡議的雙重方法是**至關重要的**。政府在制定旨在**減輕**不平等的進步立法和政策方面發揮著關鍵作用。這包括透過累進稅制重新分配財富、全民醫療保健系統以確保基本服務的可及性、健全的教育改革以提供公平的機會，以及全面的反歧視法律。儘管其性質有爭議，平權行動政策（affirmative action）代表了一種積極應對歷史劣勢的努力，旨在促進弱勢群體的更大代表性。此外，確保公共機構的透明和問責至關重要，因為腐敗和制度偏見可能會**延續**不公正，侵蝕公眾信任並加劇脆弱性。
+另一個重要的關切是個人數據的普遍收集和利用，這是許多現代科技服務的基石。儘管數據分析帶來巨大的好處，從個人化醫療保健到高效的城市規劃，它同時也對個人隱私和自主權構成嚴重風險。監控資本主義的興起，個人數據被精確地收集和貨幣化，模糊了便利與剝削之間的界限。政府監控計畫，通常以國家安全為藉口，進一步侵蝕公民自由並助長不信任的氛圍。建立強健的數據治理框架、堅持知情同意原則以及防範數據洩露，對於在日益數位化的世界中保護個人權利至關重要。
 
-同樣重要的是積極的公民參與和文化轉變的作用。草根運動、非政府組織和公民社會團體是變革的關鍵**催化劑**，它們挑戰現有的權力結構、提高公眾意識並為邊緣化群體發聲。由負責任的媒體和教育倡議促進的公共論述，可以培養同理心、消除刻板印象，並培養對系統性不公正的集體理解。最終，真正的社會正義需要文化價值觀的轉變——一種對團結、包容和對共同人性的認可的集體承諾。這意味著在日常互動和社區生活中積極挑戰偏見、偏執和歧視性規範，營造一個多元化受到頌揚、平等不僅僅是抱負而且是生活現實的環境。
+除了個人關注外，科技深刻影響著社會結構，其後果往往是無法預見的。社交媒體平台最初被譽為連結和民主化的工具，諷刺的是卻導致了社會兩極化、錯誤資訊的傳播，以及某些人群心理健康的惡化。此外，全球數位落差加劇了現有的社會經濟不平等，在那些能夠利用科技優勢的人和被排除在外的人之間造成鴻溝。科技公司作為數位體驗的強大仲裁者，負有重要的道德責任來設計優先考慮用戶福祉、促進包容性並積極打擊有害內容的平台。
 
-總之，社會正義的追求是一個動態且不斷演進的過程，需要持續的警惕和協調一致的努力。它不僅僅是為了達到一種靜態的公平狀態，而是為了不斷努力消除障礙、解決歷史遺留問題，並建立一個每個個體都有機會蓬勃發展的社會。通過將系統性改革與積極的公民參與相結合，並培養同理心和公平的文化，人類可以逐步邁向實現社會正義為所有人的深遠承諾。
+總之，科技創新的變革力量要求同樣強健的倫理預見和治理承諾。人工智慧自主性、數據隱私問題和更廣泛的社會影響所帶來的複雜挑戰，需要政策制定者、倫理學家、技術專家和公眾之間進行協作、跨學科的對話。唯有將倫理考量積極融入科技發展的根本結構中，人類才能引導創新走向一個維護正義、公平和人類尊嚴的未來，而非無意中創造出新的剝奪權利和控制形式。
 
 ---
 
 ## Logic & Analysis
 
-這篇C1學術論文就「社會正義」議題進行了深入且多面向的探討。
+This essay, "The Unfolding Moral Landscape of Technological Innovation," systematically addresses the ethical challenges posed by rapid technological advancement.
 
-*   **論文主旨 (Thesis Statement):** 論文在引言段末明確指出，社會正義的實現是一項「ongoing, complex endeavor, necessitating systemic reform, active civic participation, and a continuous re-evaluation of entrenched societal structures」。這清楚地確立了論文的核心論點：社會正義是一個持續、複雜的過程，需要多方位的努力。
+*   **Thesis Statement (主旨聲明):** The introduction establishes the core argument: technological innovation presents complex ethical dilemmas that necessitate a proactive, multidisciplinary approach to ensure human-centric and equitable outcomes. (本文開頭確立了核心論點：科技創新帶來複雜的倫理困境，需要積極主動、多學科的方法來確保以人為本和公平的結果。)
 
-*   **結構與邏輯流暢性 (Structure and Logical Flow):**
-    1.  **引言 (Introduction):** 定義社會正義，強調其基石地位，並提出論文主旨——其實現需多面向努力。
-    2.  **第一主體段 (Body Paragraph 1 - Conceptual Foundations & Challenges):** 探討社會正義的**概念基礎**，區分了 distributive justice (分配正義)、procedural justice (程序正義) 和 corrective justice (矯正正義)。隨後，深入分析實現社會正義所面臨的**挑戰**，特別是 historical injustices (歷史不公)、entrenched disparities (根深蒂固的差異) 和 intersectionality (交叉性) 如何加劇這些不平等。
-    3.  **第二主體段 (Body Paragraph 2 - Strategies for Advancement - Systemic Reform):** 聚焦於自上而下 (top-down) 的**系統性改革**策略。強調 governments (政府) 在 progressive legislation (進步立法)、progressive taxation (累進稅制)、universal healthcare (全民醫療) 和 affirmative action (平權行動) 等方面的關鍵作用。同時，也指出了 transparent and accountable public institutions (透明且負責任的公共機構) 的重要性，以防止 corruption (腐敗) 和 institutional bias (制度偏見) 延續不公。
-    4.  **第三主體段 (Body Paragraph 3 - Strategies for Advancement - Active Participation & Cultural Shift):** 轉向自下而上 (bottom-up) 的**公民參與和文化轉變**策略。闡述 grassroots movements (草根運動)、NGOs (非政府組織) 和 civil society groups (公民社會團體) 作為 catalysts (催化劑) 的作用。強調 public discourse (公共論述) 和 educational initiatives (教育倡議) 如何 fostering empathy (培養同理心) 和 dismantling stereotypes (消除刻板印象)。最終，論及 cultural values (文化價值觀) 的轉變，即對 solidarity (團結) 和 inclusivity (包容) 的 collective commitment (集體承諾)。
-    5.  **結論 (Conclusion):** 總結並重申主旨。強調社會正義是一個 dynamic and evolving process (動態且不斷演進的過程)，需要 constant vigilance (持續警惕) 和 concerted effort (協調努力)。重申了 top-down reforms (自上而下改革) 與 vigorous civic participation (積極公民參與) 相結合的重要性，以實現 truly just and equitable world (真正公正平等的社會)。
+*   **Argumentative Structure (論證結構):** The essay employs a clear, paragraph-by-paragraph structure to tackle distinct ethical domains:
+    1.  **AI and Autonomy (人工智慧與自主性):** This section highlights issues like algorithmic bias (演算法偏見), accountability for autonomous systems (自主系統的問責制), and the need for transparency (透明度) and human oversight (人類監督). It establishes AI as a critical "ethical frontier" (倫理前沿).
+    2.  **Data Privacy and Surveillance (數據隱私與監控):** The second body paragraph focuses on the pervasive collection of personal data (個人數據的普遍收集), the risks of surveillance capitalism (監控資本主義), and governmental surveillance (政府監控). It emphasizes the importance of robust data governance frameworks (強健的數據治理框架) and informed consent (知情同意).
+    3.  **Societal Impact and Digital Divide (社會影響與數位落差):** The final body paragraph broadens the scope to societal consequences, discussing how social media contributes to polarization (社會兩極化) and misinformation (錯誤資訊), and how the digital divide (數位落差) exacerbates inequalities. It underscores the ethical responsibility of tech companies (科技公司的倫理責任).
 
-*   **論證清晰度 (Argument Clarity):** 論文的論點清晰且有條理。它首先定義了主題，然後分析了挑戰，接著提出了兩大類解決策略（系統性改革和公民參與/文化轉變），最後進行了總結。每個段落都有明確的中心思想，並提供具體的例子或解釋來支持論點。例如，在討論系統性改革時，提到了 progressive taxation、universal healthcare 和 affirmative action。在談及公民參與時，則列舉了 grassroots movements、NGOs 和 public discourse。
+*   **Logical Flow (邏輯流暢性):** The arguments progress from specific technological concerns (AI algorithms, data handling) to broader societal implications (social media, digital inequality), demonstrating a comprehensive understanding of the topic. Each paragraph begins with a clear topic sentence that introduces the specific ethical challenge to be discussed, followed by elaboration, examples, and implications. (論點從具體的技術問題（AI演算法、數據處理）發展到更廣泛的社會影響（社交媒體、數位不平等），展現了對該主題的全面理解。每個段落都以清晰的主題句開頭，介紹要討論的具體倫理挑戰，隨後進行闡述、舉例和影響分析。)
 
-*   **語言與學術嚴謹性 (Language and Academic Rigor):** 論文使用了豐富的 C1-C2 等級詞彙和複雜句式，保持了嚴謹的學術語調。Code-switching 的使用有助於識別關鍵概念，例如 "distributive justice"、"procedural justice"、"corrective justice" 和 "intersectionality"，這些都是社會正義領域的核心術語。
+*   **Concluding Synthesis (結論綜合):** The conclusion effectively synthesizes the discussed challenges and reiterates the central thesis, calling for a "collaborative, interdisciplinary dialogue" (協作、跨學科的對話) as a path forward. It reinforces the idea that ethical considerations must be "woven into the very fabric of technological development" (融入科技發展的根本結構中). (結論有效地綜合了討論的挑戰，並重申了中心論點，呼籲進行「協作、跨學科的對話」作為前進的方向。它強化了倫理考量必須「融入科技發展的根本結構中」的觀點。)
 
-總體而言，這篇論文在邏輯、分析和結構上都非常出色，成功地闡述了社會正義的多維度和複雜性。
+*   **Persuasive Strategy (說服策略):** The essay uses a balanced approach, acknowledging the benefits of technology while critically examining its ethical pitfalls. This objective tone lends credibility to its call for proactive ethical governance. (本文採用平衡的方法，在肯定科技益處的同時，也批判性地審視其倫理陷阱。這種客觀的語氣為其積極主動的倫理治理呼籲增添了可信度。)
 
 ---
 
 ## Power Vocabulary
 
-1.  **Entrenched** /ɪnˈtrentʃt/
-    *   **Definition:** (Of an attitude, habit, or belief) firmly established and difficult or unlikely to change; ingrained.
-    *   **Chinese:** 根深蒂固的；牢固確立的；難以改變的
-    *   **Example:** The **entrenched** corruption within the political system made it difficult to enact meaningful reforms.
+1.  **Irrevocably**
+    *   IPA: /ɪˈrɛvəkəbli/
+    *   Definition: In a way that cannot be changed, reversed, or recovered; final.
+    *   Chinese: 不可改變地；無法挽回地
+    *   Example: The climate change has irrevocably altered the natural habitats of many species.
 
-2.  **Myriad** /ˈmɪriəd/
-    *   **Definition:** A countless or extremely great number of people or things.
-    *   **Chinese:** 無數的；大量的；種類繁多的
-    *   **Example:** The internet offers **myriad** opportunities for learning and connection, but also presents new challenges.
+2.  **Pervasive**
+    *   IPA: /pərˈveɪsɪv/
+    *   Definition: Spreading widely throughout an area or a group of people.
+    *   Chinese: 普遍的；瀰漫的；遍佈的
+    *   Example: The internet has become a pervasive influence in modern society.
 
-3.  **Imperative** /ɪmˈperətɪv/
-    *   **Definition:** Of vital importance; crucial.
-    *   **Chinese:** 極其重要的；緊急的；必須的
-    *   **Example:** It is **imperative** that we address climate change before its effects become irreversible.
+3.  **Dilemmas**
+    *   IPA: /dɪˈlɛməz/
+    *   Definition: Situations in which a difficult choice has to be made between two or more alternatives, especially equally undesirable ones.
+    *   Chinese: 困境；進退兩難
+    *   Example: Facing a moral dilemma, she struggled to decide between telling the truth and protecting her friend.
 
-4.  **Mitigate** /ˈmɪtɪɡeɪt/
-    *   **Definition:** Make less severe, serious, or painful.
-    *   **Chinese:** 減輕；緩解；使緩和
-    *   **Example:** Governments are implementing policies to **mitigate** the economic impact of the pandemic.
+4.  **Paramount**
+    *   IPA: /ˈpærəmaʊnt/
+    *   Definition: More important than anything else; supreme.
+    *   Chinese: 至關重要的；首要的
+    *   Example: Customer satisfaction is paramount to the success of any business.
 
-5.  **Perpetuate** /pərˈpetʃueɪt/
-    *   **Definition:** Make (something, typically an undesirable situation or an unfounded belief) continue indefinitely.
-    *   **Chinese:** 使...持續；使...延續；使...不朽
-    *   **Example:** Spreading misinformation can **perpetuate** harmful stereotypes and prejudice.
+5.  **Perpetuate**
+    *   IPA: /pərˈpɛtʃueɪt/
+    *   Definition: Make (something undesirable) continue indefinitely.
+    *   Chinese: 使持續；使長存；使永存
+    *   Example: The cycle of poverty can perpetuate itself through generations without intervention.
 
-6.  **Catalyst** /ˈkætəlɪst/
-    *   **Definition:** A person or thing that precipitates an event or change.
-    *   **Chinese:** 催化劑；促成變革的人或事
-    *   **Example:** Rosa Parks' act of defiance was a **catalyst** for the American Civil Rights Movement.
+6.  **Arbiters**
+    *   IPA: /ˈɑrbɪtərz/
+    *   Definition: People or organizations with the power to make authoritative judgments or decisions.
+    *   Chinese: 仲裁者；裁決人；權威人士
+    *   Example: The fashion critics are often considered the arbiters of style.
 
-7.  **Disparity** /dɪˈspærəti/
-    *   **Definition:** A great difference.
-    *   **Chinese:** 差異；不一致；懸殊
-    *   **Example:** The wealth **disparity** between the rich and the poor continues to grow in many countries.
+7.  **Disenfranchisement**
+    *   IPA: /ˌdɪsɪnˈfrænʧaɪzmənt/
+    *   Definition: The state of being deprived of a right or privilege, especially the right to vote.
+    *   Chinese: 剝奪公民權；剝奪權利
+    *   Example: Voter disenfranchisement is a serious issue that undermines democratic principles.
 
 ---
 
 ## FLPT Quiz
 
-**Instructions:** Read the essay carefully and answer the following inference questions.
+1.  **Inference Question 1:** Based on the essay, what is the most likely reason the author emphasizes a "multidisciplinary approach" to technological ethics?
+    A) Because ethicists alone lack the technical knowledge to understand new technologies.
+    B) To ensure that technology development is solely controlled by government regulations.
+    C) To prevent any single group from dominating the ethical discourse surrounding technology.
+    D) Because ethical considerations are inherent in various fields, requiring diverse expertise for comprehensive solutions.
 
-**Question 1:**
-Based on the essay, which of the following statements best describes the author's perspective on the nature of social justice?
-(A) It is an ideal that, once achieved, creates a perfectly equitable society.
-(B) It is a fixed set of legal standards that societies must uphold to be considered fair.
-(C) It is a dynamic and evolving societal aspiration requiring continuous effort and adaptation.
-(D) It is primarily a governmental responsibility, with limited need for public involvement.
+    **Correct Answer:** D
 
-**Explanation (中英對照):**
-The essay explicitly states in the conclusion that "the pursuit of social justice is a dynamic and evolving process that demands constant vigilance and concerted effort. It is not merely about achieving a static state of fairness but about continuously striving to dismantle barriers..." This directly supports option (C), emphasizing its continuous and adaptive nature. Options (A) and (B) are contradicted by the idea of an "evolving process" and "not a static state." Option (D) is incorrect because the essay highlights the "dual approach" of both government action and "active civic engagement and cultural transformation."
+    **Explanation (中英對照):**
+    The essay repeatedly mentions the complexity of technological ethics, involving AI's decision-making, data privacy frameworks, and societal impacts. Such multifaceted problems cannot be solved by a single discipline. The author calls for collaboration among "policymakers, ethicists, technologists, and the public," implying that comprehensive solutions require input from various expertises to address technical, moral, legal, and social aspects effectively.
+    本文反覆提及科技倫理的複雜性，涉及人工智慧的決策、數據隱私框架和社會影響。如此多方面的問題無法由單一學科解決。作者呼籲「政策制定者、倫理學家、技術專家和公眾」之間的合作，暗示全面的解決方案需要來自不同專業領域的意見，以有效處理技術、道德、法律和社會層面。
 
-根據文章，以下哪項陳述最能描述作者對社會正義本質的看法？
-(A) 它是一個一旦實現，就能創造完美公平社會的理想。
-(B) 它是一套固定的法律標準，社會必須遵守才能被視為公平。
-(C) 它是一種動態且不斷發展的社會願望，需要持續的努力和適應。
-(D) 它主要是政府的責任，對公眾參與的需求有限。
+2.  **Inference Question 2:** The author states that AI algorithms "can perpetuate and amplify societal inequalities." What can be inferred about the primary cause of this perpetuation?
+    A) The inherent malicious intent of AI developers to create biased systems.
+    B) The algorithms' inability to process diverse datasets accurately.
+    C) The historical and existing biases present in the data used to train these algorithms.
+    D) The lack of computational power available for developing ethical AI.
 
-**解釋：**
-文章在結論中明確指出：「社會正義的追求是一個動態且不斷演進的過程，需要持續的警惕和協調一致的努力。它不僅僅是為了達到一種靜態的公平狀態，而是為了不斷努力消除障礙...」這直接支持了選項 (C)，強調其持續性和適應性。選項 (A) 和 (B) 與「演進的過程」和「非靜態狀態」的觀點相矛盾。選項 (D) 不正確，因為文章強調了政府行動和「積極的公民參與和文化轉變」這兩種「雙重方法」。
+    **Correct Answer:** C
 
----
-
-**Question 2:**
-The essay suggests that true social justice requires which of the following?
-(A) Primarily addressing individual prejudices through education.
-(B) A top-down approach focusing solely on legislative reforms.
-(C) A combination of systemic policy changes and shifts in cultural values and civic engagement.
-(D) Prioritizing corrective justice over distributive and procedural justice.
-
-**Explanation (中英對照):**
-The essay advocates for a "dual approach combining top-down policy interventions and bottom-up grassroots advocacy" in the third paragraph. It then dedicates an entire paragraph to "active civic engagement and cultural transformation," stating that "Ultimately, true social justice requires a shift in cultural values—a collective commitment to solidarity, inclusivity, and a recognition of shared humanity." This strongly supports option (C), which integrates both systemic changes (top-down) and cultural shifts/civic engagement (bottom-up). Options (A), (B), and (D) present partial or incorrect views, as the essay emphasizes confronting systemic inequalities, a dual approach, and all three types of justice (distributive, procedural, corrective).
-
-文章指出真正的社會正義需要以下哪項？
-(A) 主要透過教育解決個人偏見。
-(B) 僅專注於立法改革的自上而下方法。
-(C) 系統性政策變革與文化價值觀和公民參與轉變的結合。
-(D) 優先考慮矯正正義而非分配正義和程序正義。
-
-**解釋：**
-文章在第三段提倡「結合自上而下的政策干預和自下而上的基層倡議的雙重方法」。隨後，它用一整段來討論「積極的公民參與和文化轉變」，並指出「最終，真正的社會正義需要文化價值觀的轉變——一種對團結、包容和對共同人性的認可的集體承諾」。這有力地支持了選項 (C)，它整合了系統性變革（自上而下）和文化轉變/公民參與（自下而上）。選項 (A)、(B) 和 (D) 提出了部分或不正確的觀點，因為文章強調應對系統性不平等、雙重方法以及所有三種類型的正義（分配、程序、矯正）。
+    **Explanation (中英對照):**
+    The essay explicitly states, "Algorithms, often trained on biased historical data, can perpetuate and amplify societal inequalities." This directly points to the *training data* as the source of the bias. The AI itself isn't inherently malicious or incapable, but rather reflects the imperfections of the human-generated data it learns from, thus perpetuating existing biases.
+    文章明確指出：「演算法通常基於有偏見的歷史數據進行訓練，可能在刑事司法、就業和貸款批准等領域延續並放大社會不平等。」這直接將偏差的來源指向了「訓練數據」。人工智慧本身並非惡意或無能，而是反映了其學習來源的人類生成數據的不完善性，從而延續了現有的偏見。
